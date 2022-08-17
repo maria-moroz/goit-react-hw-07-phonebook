@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 370px;
+  margin-right: 0;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contact {
+  margin-right: 10px;
+}
+
+.button {
+  padding: 5px 10px;
+  width: 88px;
+
+  font-size: 14px;
+
+  border: 2px solid #abb2b9;
+  border-radius: 5px;
+
+  background-color: #fff;
+
+  cursor: pointer;
+}

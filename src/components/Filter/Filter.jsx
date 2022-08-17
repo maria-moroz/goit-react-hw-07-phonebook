@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import { updateFilter, getContactsFilter } from 'redux/contactsSlice';
+import { updateFilter, getContactsFilter } from 'redux/filterSlice';
 import { useDispatch, useSelector } from 'react-redux';
 
 import s from './Filter.module.css';
